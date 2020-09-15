@@ -1,0 +1,39 @@
+{{ include('header.twig') }}	
+			<div class="col-md-9 r-content">
+				<!--<div class="flexslider">
+					<div class="slides"> -->
+						<!-- SECTION 1 - HOMEPAGE -->
+						<!--<section class="no-display">-->
+							<div class="profile" id="1">
+							  {{ content }}
+							  <div>
+							  
+{% for page in pages|sort_by("time")|reverse %}
+{% set pageOrder = (page.id|split('/'))|length %}
+
+    {% if  (meta.title|lower ~ "/" ) in page.id%}
+        {% if not( (page.id ends with (meta.title|lower ~ "/index") ) )  %}
+
+    
+
+    
+        <div class="post">
+        	 <!--<h2>{{page.id}} : {{pageOrder}}</h2> -->
+        	
+
+            <h4><a href="{{ page.url }}">{{ page.title }}</a>
+            	{% if page.description %}
+             - {{ page.description }} 
+             {% endif %}
+         </h4> 
+        </div>
+{% endif %}
+    {% endif %}
+{% endfor %}
+</div>
+							</div> 
+						<!--</section>-->
+						<!-- SECTION 1 - HOMEPAGE -->
+            </div>
+				</div>
+{{ include('footer.twig') }}	

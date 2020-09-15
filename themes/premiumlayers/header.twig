@@ -1,0 +1,164 @@
+<!-- <!DOCTYPE html> -->
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+<head>
+
+	<!-- Meta -->
+	    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dhaka",
+        "addressRegion": "BD",
+        "postalCode": "1207",
+        "streetAddress": "100 Main Street"
+      },
+      "email": "smc@ieee.org",
+      "image": "{{ theme_url }}/images/profile-avatar.png",
+      "jobTitle": "Graduate Research Assistant",
+      "name": "Dr. Sajid M Choudhury",
+      "alumniOf": "Purdue University",
+      "birthPlace": "Dhaka, Bangladesh",
+      "height": "72 inches",
+      "gender": "male",
+      "nationality": "Bangladeshi",
+      "telephone": "(765)400-9040",
+      "url": "http://sajid.buet.ac.bd",
+	    "sameAs" : [ "https://www.facebook.com/sajidmc",
+      "https://www.linkedin.com/",
+      "http://twitter.com/sajidmchoudhury",
+      "http://instagram.com/sajidmc",
+      "http://orcid.org/0000-0002-0216-7125",
+      "https://scholar.google.com/citations?user=Fu8Hkb4AAAAJ&hl=en"]
+    }
+</script>
+
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+		<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+		<meta content="width=device-width, user-scalable=no" name="viewport"/>
+    {% if meta.description %}
+        <meta name="description" content="{{ meta.description|striptags }}">
+    {% endif %}{% if meta.robots %}
+        <meta name="robots" content="{{ meta.robots }}">
+    {% endif %}
+
+	<title>{% if (meta.title  and not(meta.title ends with "Welcome") ) %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+
+	<!-- Mobile Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="{{ theme_url }}/images/favicon.png">
+	
+	<link rel="apple-touch-icon" href="{{ theme_url }}/images/apple-touch-icon.png">
+	<!--
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+-->
+	<!-- Google Webfonts -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" rel="stylesheet"> 
+	<!--
+	<link href="https://fonts.googleapis.com/css?family=Galada|Open+Sans:400,400i,700,700i&display=swap&subset=bengali" rel="stylesheet"> 
+	 -->
+
+	<!--[if lt IE 9]>
+	<script src="/js/libs/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Bootstrap Core CSS -->
+	
+	<link href="{{ theme_url }}/css/bootstrap.css" rel="stylesheet">
+	
+		<!--
+		<link href="{{ theme_url }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		-->
+
+	<!-- Theme Styles CSS-->
+	<!--
+    <link href="{{ theme_url }}/css/academicons.min.css" rel="stylesheet">
+	<link href="{{ theme_url }}/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	-->
+	<link href="{{ theme_url }}/css/icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="{{ theme_url }}/css/style.css" >
+	<!--
+	<link rel="stylesheet" href="{{ theme_url }}/css/flexslider.css"/>
+	<link rel="stylesheet" href="{{ theme_url }}/css/nivo-lightbox.css" />
+	-->
+	<script>
+
+</script>
+
+<!--
+	<link rel="stylesheet" href="{{ theme_url }}/images/themes/default/default.css" />
+	<link rel="stylesheet" href="{{ theme_url }}/css/animate.css" /> -->
+
+	<!--[if lt IE 9]>
+	<script src="/js/libs/html5.js"></script>
+	<![endif]-->
+
+	<!-- Style Switch -->
+	<!-- <link rel="stylesheet" type="text/css" href="{{ theme_url }}/css/colors/yellow-black.css" title="yellow" media="screen" /> -->
+	<link rel="stylesheet" type="text/css" href="{{ theme_url }}/css/colors/buetbrown-black.css" title="yellow" media="screen" /> 
+
+
+
+</head>
+<body>
+
+<!-- LOADING MASK -->
+<!--<div id="mask">   
+    <div class="loader">
+        <img src="{{ theme_url }}/images/loading.gif" alt='loading'>
+    </div>
+</div>-->
+
+<!-- MAIN CONTENT -->
+<div class="main-content">
+	<div class="container no-padding">
+		<div class="row">
+			<div class="col-md-3 l-content">
+				<div class="profile-pic">
+					<div class="pic-bg"><img src="{{ theme_url }}/images/profile_avatar.jpg" class="img-responsive" alt=""/></div>
+                    <div class="profile-pic-caption"><a href="#">Dr. Sajid M Choudhury</a></div>
+					<div class="profile-pic-subcaption"><a href="http://eee.buet.ac.bd">Department of EEE</a><br><a href = "http://www.buet.ac.bd">BUET</a></div>
+				</div>
+
+				
+				
+	 
+			<nav>
+				<ul class="navigation">
+                   {% for page in pages|sort_by([ 'meta', 'nav' ]) if page.title and not page.hidden and page.meta.toplevel %}
+                        {% set pageDepth = page.id|split('/')|length %}
+                        {% if (pageDepth == 2) and (page.id ends with "/index") or (pageDepth == 1) %}
+                            <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                                <a href="{{ page.url }}">{{ page.title }}<i class="fa fa-{{page.meta.icon}}"></i></a>
+                            </li>
+                            
+                        {% endif %}
+                    {% endfor %}
+				</ul> 
+				</nav>
+
+			</div>
+			<section>
+			{% if is_front_page == false%}
+							<div class="works" id="2">
+								<div class="page-head">
+									<div class="row">
+										<div class="col-md-12">
+											<h3>{{meta.title}}</h3>
+										</div>
+										</div>
+									</div>
+
+								</div>
+		{% endif %}						
+</section>
+<!-- header -->
