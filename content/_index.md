@@ -16,9 +16,9 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: li-yang-5h_dMuX_7RE-unsplash.webp
+          filename: ECE.jpg
           filters:
-            brightness: 0.4
+            brightness: 0.6
           size: cover
           position: center
           parallax: false
