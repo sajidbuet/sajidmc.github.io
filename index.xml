@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academic CV Pro Hugo Theme</title><link>https://sajidmc.github.io/</link><atom:link href="https://sajidmc.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Academic CV Pro Hugo Theme</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://sajidmc.github.io/media/icon_hu_645fa481986063ef.png</url><title>Academic CV Pro Hugo Theme</title><link>https://sajidmc.github.io/</link></image><item><title>Example Talk</title><link>https://sajidmc.github.io/event/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://sajidmc.github.io/event/example/</guid><description>&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dr. Sajid M Choudhury's Website</title><link>https://sajidmc.github.io/</link><atom:link href="https://sajidmc.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Dr. Sajid M Choudhury's Website</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://sajidmc.github.io/media/icon_hu_645fa481986063ef.png</url><title>Dr. Sajid M Choudhury's Website</title><link>https://sajidmc.github.io/</link></image><item><title>EECE 6002 - (April 2024)</title><link>https://sajidmc.github.io/course-archive/a2024_eee6004q/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/course-archive/a2024_eee6004q/</guid><description>&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
 &lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
 &lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
 &lt;/span>
-&lt;span class="dark:text-neutral-300">Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.&lt;/span>
+&lt;span class="dark:text-neutral-300">This website is given for a general info only. All class related info are posted in the class teams.&lt;/span>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Hugo Blox Builder&amp;rsquo;s &lt;a href="https://docs.hugoblox.com/reference/content-types/" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Further event details, including &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>EECE 6002 - (April 2024)</title><link>https://sajidmc.github.io/teaching/a2024_eee6004q/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/teaching/a2024_eee6004q/</guid><description>&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">This website is given for a general info only. All class related info are posted in the class teams.&lt;/span>
 &lt;/div>
 &lt;p>Slides can be added in a few ways:&lt;/p>
 &lt;ul>
@@ -71,7 +83,7 @@
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-742358916" class="chart">&lt;/div>
+&lt;div id="chart-315246978" class="chart">&lt;/div>
 &lt;script>
 async function fetchChartJSON() {
 console.debug('Hugo Blox fetching chart JSON...')
@@ -87,7 +99,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart => {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-742358916', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-315246978', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -398,7 +410,7 @@ data.head()
 &lt;span class="inline-block pr-1">
 &lt;svg style="height: 1em; transform: translateY(0.1em);" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor">&lt;path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/>&lt;/svg>
 &lt;/span> Python&lt;/p>
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h2></description></item><item><title>Experience</title><link>https://sajidmc.github.io/experience/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/experience/</guid><description/></item><item><title>Experience</title><link>https://sajidmc.github.io/projects/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/projects/</guid><description/></item><item><title>Uses</title><link>https://sajidmc.github.io/uses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/uses/</guid><description>&lt;p>The idea of a Uses page is to tell you about the stuff I use.&lt;/p>
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h2></description></item><item><title>Biography</title><link>https://sajidmc.github.io/bio/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/bio/</guid><description/></item><item><title>Outreach</title><link>https://sajidmc.github.io/outreach/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/outreach/</guid><description>&lt;p>The idea of a Uses page is to tell you about the stuff I use.&lt;/p>
 &lt;p>Make sure to check out &lt;a href="https://uses.tech/" target="_blank" rel="noopener">uses.tech&lt;/a> for a list of everyone&amp;rsquo;s Uses pages!&lt;/p>
 &lt;p>I often get asked about what software or hardware I use, so this page will serve as a living document and a place to point curious readers to when I get asked.&lt;/p>
 &lt;h2 id="editor--terminal">Editor + Terminal&lt;/h2>
@@ -410,7 +422,7 @@ data.head()
 &lt;h2 id="desktop-apps">Desktop Apps&lt;/h2>
 &lt;ul>
 &lt;li>Better Touch Tool for window management and custom keyboard shortcuts&lt;/li>
-&lt;/ul></description></item><item><title>✅ Manage your projects</title><link>https://sajidmc.github.io/post/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/post/project-management/</guid><description>&lt;p>Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p>
+&lt;/ul></description></item><item><title>Research</title><link>https://sajidmc.github.io/research/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/research/</guid><description/></item><item><title>✅ Manage your projects</title><link>https://sajidmc.github.io/post/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://sajidmc.github.io/post/project-management/</guid><description>&lt;p>Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p>
 &lt;h2 id="ideation">Ideation&lt;/h2>
 &lt;p>Wowchemy supports a Markdown extension for mindmaps.&lt;/p>
 &lt;p>Simply insert a Markdown code block labelled as &lt;code>markmap&lt;/code> and optionally set the height of the mindmap as shown in the example below.&lt;/p>
