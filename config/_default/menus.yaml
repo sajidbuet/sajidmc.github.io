@@ -8,17 +8,18 @@ main:
     url: /
     weight: 10
   - name: Research
-    url: /publication
+    url: research/
     weight: 11
-  - name: Talks
-    url: /event
+  - name: Publications
+    url: /publication
     weight: 12
+  - name: Teaching
+    url: /teaching
+    weight: 13
   - name: Experience
-    url: experience/
+    url: bio/
     weight: 20
-  - name: Projects
-    url: projects/
-    weight: 30
-  - name: Uses
-    url: uses/
+  
+  - name: Outreach
+    url: outreach/
     weight: 40

@@ -1,3 +1,5 @@
+
+
 ---
 # Leave the homepage title empty to use the site title
 title:
@@ -22,32 +24,15 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: stats
-    content:
-      items:
-        - statistic: "15"
-          description: |
-            Publications
-        - statistic: "1,000+"
-          description: |
-            Citations
-        - statistic: "78"
-          description: |
-            h-index
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+
   - block: markdown
     content:
       title: 'Welcome 👋'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        **Specialties:** Analytics & Data, Leadership, Programming, Strategic Planning, Writing & Editing
+        Hello, I am [Dr. Sajid Muhaimin Choudhury](/about) (ডঃ সাজিদ মুহাইমিন চৌধুরী), working as an Associate Professor in the Department of EEE, BUET. 
+        Please feel free to browse through the links to know more about my [research](/research), [publications](publication). Whether you are a prospective student, potential collaborator, fellow researcher, or just interested regarding my research, please feel free to [contact me](/contact-info). 
+        **Note** If you are seeking a Letter of Recommendation from me, kindly visit [this page](/outreach/LOR).
     design:
       columns: '1'
   - block: collection

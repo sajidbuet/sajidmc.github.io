@@ -1,24 +1,22 @@
 ---
-title: Example Talk
+title: EECE 6002 - (April 2024)
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: Postgraduate Course
 
-location: Hugo Blox Builder HQ
+location: EEE 625
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: ECE Building, BUET
+  city: Dhaka
+  postcode: '1205'
+  country: Bangladesh
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Selected Topics on Electrical and Electronic Engineering - Quantum Photonics and Quantum Computing 
+abstract: 'Selected Topics on Electrical and Electronic Engineering - Quantum Photonics and Quantum Computing'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2024-04-01'
+date_end: '2024-04-01'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -61,7 +59,7 @@ projects:
 ---
 
 {{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
+This website is given for a general info only. All class related info are posted in the class teams.
 {{% /callout %}}
 
 Slides can be added in a few ways:

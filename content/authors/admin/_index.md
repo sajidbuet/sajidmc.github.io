@@ -31,24 +31,24 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:sajid@eee.buet.ac.bd'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/sajidmc/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: http://scholar.google.com/citations?user=Fu8Hkb4AAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
-
+    url: http://orcid.org/0000-0002-0216-7125
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Sajid_Choudhury
+  
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: PhD Electrical and Computer Engineering
+    institution: Purdue University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
