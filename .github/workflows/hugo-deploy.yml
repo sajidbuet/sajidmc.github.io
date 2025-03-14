@@ -1,36 +1,51 @@
-name: Deploy Hugo site
+name: Deploy Hugo to GitHub Pages
+
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
+  workflow_dispatch:
+
 permissions:
-  contents: read          # allow repo read (needed for private modules)
-  pages: write            # allow Pages deployment
-  id-token: write         # allow OIDC for Pages
+  contents: read          # allow actions/checkout to read repository content
+  pages: write            # allow deployment to GitHub Pages
+  id-token: write         # allow OIDC authentication for deploy-pages
+
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GOPRIVATE: github.com/HugoBlox/all-access    # mark private module
+      GOPRIVATE: github.com/HugoBlox/all-access   # treat this repo as private (no Go proxy)
+      WC_HUGO_VERSION: '0.136.5'                  # example Hugo version
     steps:
-      - name: Checkout
+      - name: Checkout source
         uses: actions/checkout@v4
         with:
-          persist-credentials: false   # don't use default token for Git operations
-          fetch-depth: 0
-
-      - name: Authenticate Git for private modules
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}            # GitHub PAT stored in secrets
-        run: git config --global url."https://${GH_PAT}:x-oauth-basic@github.com/".insteadOf "https://github.com/"
-
-      - name: Download Go modules
-        run: go mod download
+          fetch-depth: 0  # fetch full history for .GitInfo
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
+
+      - name: Cache Hugo modules
+        uses: actions/cache@v4
+        with:
+          path: /tmp/hugo_cache_runner/
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+          restore-keys: ${{ runner.os }}-hugomod-
+
+      - name: Authenticate Git for private modules
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: git config --global url."https://$GH_PAT:x-oauth-basic@github.com/".insteadOf "https://github.com/"
+
+      - name: Download Hugo modules
+        run: go mod download
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: Build with Hugo
         env:
@@ -43,11 +58,14 @@ jobs:
           path: ./public
 
   deploy:
-    needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write          # allow deployment to pages
-      id-token: write       # allow OIDC auth for pages
+    needs: build
+    environment:
+      name: github-pages   # target the GitHub Pages environment
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        id: deployment
+        uses: actions/deploy-pages@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
