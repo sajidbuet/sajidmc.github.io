@@ -30,7 +30,7 @@ sections:
       title: 'Welcome 👋'
       subtitle: ''
       text: |-
-        Hello, I am [Dr. Sajid Muhaimin Choudhury](/about) (ডঃ সাজিদ মুহাইমিন চৌধুরী), working as an Associate Professor in the Department of EEE, BUET. 
+        Hello, I am [Dr. Sajid Muhaimin Choudhury](/about) (ডঃ সাজিদ মুহাইমিন চৌধুরী), working as an Associate Professor in the Department of EEE, BUET. This is my website.
         Please feel free to browse through the links to know more about my [research](/research), [publications](publication). Whether you are a prospective student, potential collaborator, fellow researcher, or just interested regarding my research, please feel free to [contact me](/contact-info). 
         **Note** If you are seeking a Letter of Recommendation from me, kindly visit [this page](/outreach/LOR).
     design:
