@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Dr. Sajid M Choudhury's Website # Website name
-baseURL: 'https://sajidmc.github.io/' # Website URL
+title: Academic CV Pro Hugo Theme # Website name
+baseURL: 'https://example.com/' # Website URL
 
 ############################
 ## LANGUAGE

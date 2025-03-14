@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Dr. Sajid Muhaimin Choudhury
+title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Sajid Muhaimin
-last_name: Choudhury
+first_name: Shiung Wu
+last_name: Chien
 
 # Status emoji
 status:
@@ -20,35 +20,35 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Associate Professor
+role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Department of EEE, BUET
-    url: https://eee.buet.ac.bd
+  - name: OpenAI
+    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:sajid@eee.buet.ac.bd'
+    url: 'mailto:your-email@example.com'
     label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/sajidmc/
+    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: http://scholar.google.com/citations?user=Fu8Hkb4AAAAJ&hl=en
+    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: http://orcid.org/0000-0002-0216-7125
-  - icon: academicons/researchgate
-    url: https://www.researchgate.net/profile/Sajid_Choudhury
-  
+    url: https://orcid.org/
+
 education:
-  - area: PhD Electrical and Computer Engineering
-    institution: Purdue University
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
