@@ -3,7 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Q-PACER (DSMC-RG) # Website name
+title: Q-PACER (DSMC-RG) # Website name Dr. Sajid's Website
+
 baseURL: 'https://sajidbuet.github.io' # Website URL
 
 ############################
