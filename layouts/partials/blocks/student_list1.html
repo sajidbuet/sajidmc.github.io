@@ -1,0 +1,32 @@
+{{/* My Custom Hugo Blox */}}
+{{/* https://hugoblox.com */}}
+
+{{/* Initialise the block */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* Access custom front matter content */}}
+{{ $title := $block.title  }}
+{{ $student_batches := $block.student_batches }}
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+  <h2 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+     {{ $title }}
+  </h2>
+
+  {{ range $student_batches }}
+    <div class="w-full text-left">
+      <h3 class="text-2xl font-semibold text-gray-700 dark:text-gray-300">{{ .batch }} Batch</h3>
+      <ul class="list-disc list-inside text-gray-600 dark:text-gray-400">
+        {{ range .students }}
+          <li>
+            <strong>{{ .name }}</strong> ({{ .year }})
+            {{ if .title }}<em> - {{ .title }}</em>{{ end }}
+            {{ if .note }}<span> - {{ .note }}</span>{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+
+</div>

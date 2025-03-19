@@ -1,11 +1,10 @@
 ---
 title: Publications
-cms_exclude: true
 
-# View.
+# Listing view
 view: citation
 
-# Optional header image (relative to `static/media/` folder).
+# Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
   image: ''

@@ -5,77 +5,86 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: resume-biography
+  - block: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text:
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: ECE.jpg
-          filters:
-            brightness: 0.6
-          size: cover
-          position: center
-          parallax: false
-  - block: stats
-    content:
-      items:
-        - statistic: "15"
-          description: |
-            Publications
-        - statistic: "1,000+"
-          description: |
-            Citations
-        - statistic: "78"
-          description: |
-            h-index
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      title: |
+        Q-PACER Research Group
+      image:
+        filename: Q-PACER.png
+      text: |
+        <br>
+        
+        The   **Q**uantum, **P**hotonics, **A**ntennas, **C**omputing, **E**mbedded systems, and **R**enewables (**Q-PACER**) Research Group  is a hub of innovation in electronics and photonics research at the Department of EEE, BUET, Bangladesh. Founded and led by [Dr. Sajid Muhaimin Choudhury](author/dr.-sajid-muhaimin-choudhury), the group leverages expertise in both experimental and computational photonics to tackle cutting-edge challenges. 
+        
+
+
   - block: markdown
     content:
-      title: 'Welcome 👋'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        **Specialties:** Analytics & Data, Leadership, Programming, Strategic Planning, Writing & Editing
+      title: Our Mission
+      subtitle: 
+      text: Our mission is to advance knowledge in nanophotonics, embedded systems, and quantum computing, and to develop practical technological solutions for society. We aim to solve fundamental and high-impact research questions in photonics and quantum computation while training the next generation of engineers and scientists.
     design:
-      columns: '1'
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'  
   - block: collection
     content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
+      title: Latest News
+      subtitle:
+      text:
       count: 5
-      # Filter on criteria
       filters:
-        author: ""
-        category: ""
-        tag: ""
+        author: ''
+        category: ''
         exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
+        publication_type: ''
+        tag: ''
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
+      page_type: post
     design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
+      view: card
+      columns: '1'
+  
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: coders.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
+
+  - block: collection
+    content:
+      title: Latest Preprints
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - publication
+        publication_type: 'article'
+    design:
+      view: citation
+      columns: '1'
+
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+    design:
+      columns: '1'
 ---
