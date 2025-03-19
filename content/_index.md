@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-        The   **Q**uantum, **P**hotonics, **A**ntennas, **C**omputing, **E**mbedded systems, and **R**enewables (**Q-PACER**) Research Group  is a hub of innovation in electronics and photonics research at the Department of EEE, BUET, Bangladesh. Founded and led by [Dr. Sajid Muhaimin Choudhury](author/dr.-sajid-muhaimin-choudhury), the group leverages expertise in both experimental and computational photonics to tackle cutting-edge challenges. 
+        The   **Q**uantum, **P**hotonics, **A**ntennas, **C**omputing, **E**mbedded systems, and **R**enewables (**Q-PACER**) Research Group  is a hub of innovation in electronics and photonics research at the Department of EEE, BUET, Bangladesh. Founded and led by [Dr. Sajid Muhaimin Choudhury](author/dr.-sajid-muhaimin-choudhury), the group leverages expertise in both experimental and computational photonics to tackle cutting-edge challenges. sdfsdffds dfgdfg
         
 
 
