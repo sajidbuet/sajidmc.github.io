@@ -1,4 +1,4 @@
-rm public -r -Force
+rm -r public
 git add -A
 git commit -m "%1"
-git push
+git push origin main

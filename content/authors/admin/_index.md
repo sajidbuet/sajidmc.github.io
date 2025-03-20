@@ -21,7 +21,7 @@ organizations:
     url: https://eee.buet.ac.bd
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Associate Professor, Dept. of EEE, BUET
 
 interests:
   - Nanophotonics
@@ -30,15 +30,15 @@ interests:
 
 education:
   courses:
-    - course: PhD in ECE 
-      institution: Purdue University
+    - course: Ph.D. in ECE 
+      institution: Purdue University, West Lafayette, IN, USA
       year: 2019
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: M.Sc. Eng (EEE) 
+      institution: BUET, Dhaka, Bangladesh
+      year: 2011
+    - course: B.Sc. Eng (EEE) 
+      institution: BUET, Dhaka, Bangladesh
       year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -78,7 +78,7 @@ social:
 email: ''
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -86,6 +86,5 @@ user_groups:
   - Principal Investigator
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+## Short Biography
+Dr. Sajid Choudhury is working as an Associate Professor in the Department of EEE, BUET. Dr. Choudhury completed his Ph.D. from the School of Electrical and Computer Engineering in Purdue University. Dr. Choudhury had the privilege of acquiring skills of both experimental and numerical approaches to solve problems related to photonics. His current research interest is in Photonic Quantum Computing, Flat Optics with Metasurface, Photonic Devices with Phase Change Materials, Embedded Systems Design. He seeks to solve fundamental and high-impact research questions of photonics and quantum computing, as well as to design practical solutions to meet the needs of Bangladesh. Dr. Choudhury is a member of the Department of EEE, BUET Self Assessment Committee, seeking to improve and excel the educational quality of the department. He actively engages and volunteers in Professional societies. Dr. Choudhury is the Educational Activities Chair of IEEE Bangladesh Section, Chair, IEEE Photonics Society Bangladesh Chapter and founding President, The Optica Bangladesh Section. Dr. Choudhury is a senior member of the IEEE and member of Optica. He is a member of the National Young Academy of Bangladesh (NYAB).
